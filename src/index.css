@@ -1,0 +1,61 @@
+html {
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 536px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  background: #f4f6f7;
+  margin: 0px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  box-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 20%);
+  background: #fff;
+  margin: 0;
+  padding: 16px;
+}
+
+li {
+  padding-right: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
